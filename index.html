@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>Shorts Ranking</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="loginBox">
+    <input id="nickname" placeholder="닉네임 입력" />
+    <button onclick="login()">시작</button>
+  </div>
+
+  <h2 id="welcome"></h2>
+
+  <div class="upload">
+    <input id="urlInput" placeholder="유튜브 쇼츠 링크" />
+    <button onclick="addPost()">공유</button>
+  </div>
+
+  <div class="layout">
+    <div id="feed"></div>
+
+    <div class="ranking">
+      <h3>🏆 TOP 5</h3>
+      <ul id="rankingList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

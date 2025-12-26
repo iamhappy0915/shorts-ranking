@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  padding: 20px;
+}
+
+input {
+  padding: 8px;
+  width: 240px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.upload {
+  margin: 20px 0;
+}
+
+.layout {
+  display: flex;
+  gap: 30px;
+}
+
+#feed {
+  flex: 3;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  gap: 15px;
+}
+
+.card {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.ranking {
+  flex: 1;
+  border-left: 1px solid #eee;
+  padding-left: 20px;
+}
